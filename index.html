@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marley Burgos — Estética & Beleza | Protocolos exclusivos de beleza avançada</title>
+<meta name="description" content="Clínica de estética avançada em protocolos faciais, corporais e harmonização. Uma experiência sob medida, assinada por Marley Burgos. Agende sua avaliação.">
+<meta name="theme-color" content="#14100E">
+<meta property="og:title" content="Marley Burgos — Estética & Beleza">
+<meta property="og:description" content="Protocolos exclusivos de beleza avançada. Resultado real, cuidado artesanal.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2314100E'/%3E%3Ctext x='50' y='70' font-family='Georgia,serif' font-size='58' font-style='italic' fill='%23C4A265' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  /* Marca que o JS está ativo. As animações de entrada só escondem
+     conteúdo quando esta classe existe — assim nenhuma falha de script
+     deixa a página em branco. */
+  document.documentElement.classList.add('js');
+</script>
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader">
+  <div class="pl-inner">
+    <div class="pl-mark">Marley <em>Burgos</em></div>
+    <div class="pl-sub">Estética &amp; Beleza</div>
+    <div class="pl-bar"><span id="plBar"></span></div>
+  </div>
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <a href="#top" class="brand" data-cursor>
+    <b>Marley <em>Burgos</em></b>
+    <small>Estética &amp; Beleza</small>
+  </a>
+
+  <nav class="nav">
+    <a href="#sobre" data-cursor>A Clínica</a>
+    <a href="#servicos" data-cursor>Protocolos</a>
+    <a href="#resultados" data-cursor>Resultados</a>
+    <a href="#experiencia" data-cursor>Experiência</a>
+    <a href="#depoimentos" data-cursor>Clientes</a>
+  </nav>
+
+  <a href="#contato" class="btn" data-cursor data-magnetic>
+    Agendar avaliação
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+
+  <button class="burger" id="burger" aria-label="Abrir menu"><i></i><i></i></button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#sobre">A Clínica</a>
+  <a href="#servicos">Protocolos</a>
+  <a href="#resultados">Resultados</a>
+  <a href="#experiencia">Experiência</a>
+  <a href="#depoimentos">Clientes</a>
+  <a href="#contato">Agendar</a>
+  <div class="mm-foot">
+    <span>@marleyburgos_estetica</span>
+    <span>WhatsApp</span>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-bg" data-parallax="0.18">
+    <div class="media" data-mono="MB">
+      <img src="img/hero.jpg" data-fb="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=2000&q=80" alt="Ambiente da clínica Marley Burgos" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}">
+    </div>
+  </div>
+  <div class="hero-veil"></div>
+  <div class="hero-grain"></div>
+
+  <div class="hero-inner">
+    <div class="hero-top">
+      <span class="eyebrow hero-eyebrow">Estética avançada · Alta performance</span>
+      <h1>
+        <span class="ln"><span>A beleza que</span></span>
+        <span class="ln"><span>já é <em>sua</em>,</span></span>
+        <span class="ln"><span>revelada.</span></span>
+      </h1>
+    </div>
+
+    <div class="hero-bottom">
+      <p class="lead">
+        Protocolos desenhados um a um, para a sua pele, o seu tempo e o seu objetivo.
+        Sem fórmula pronta — resultado real, com um cuidado que você sente desde a porta.
+      </p>
+      <div class="hero-cta">
+        <a href="#contato" class="btn btn--gold" data-cursor data-magnetic>
+          Agendar minha avaliação
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#servicos" class="btn btn--ghost" data-cursor data-magnetic>Ver protocolos</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat"><b data-count="12">0</b><span>Anos de experiência</span></div>
+      <div class="stat"><b data-count="2400" data-suffix="+">0</b><span>Atendimentos realizados</span></div>
+      <div class="stat"><b data-count="98" data-suffix="%">0</b><span>Clientes que retornam</span></div>
+      <div class="stat"><b data-count="20" data-suffix="+">0</b><span>Protocolos exclusivos</span></div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Role</span><i></i></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee">
+    <span>Limpeza de Pele Profunda</span><span>Microagulhamento</span><span>Peeling Químico</span>
+    <span>Drenagem Linfática</span><span>Design de Sobrancelhas</span><span>Skinbooster</span>
+    <span>Massagem Modeladora</span><span>Protocolo Anti-Idade</span>
+  </div>
+</div>
+
+<!-- ============ SOBRE ============ -->
+<section class="section" id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-media" data-rv="scale">
+      <div class="media" data-mono="Marley">
+        <img src="img/marley.jpg" data-fb="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1200&q=80" alt="Marley Burgos em atendimento" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}">
+      </div>
+      <div class="badge-seal">
+        <div>
+          <b>12</b>
+          <span>Anos<br>de estética</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <span class="eyebrow" data-rv>A assinatura</span>
+      <h2 class="h2" data-rv>Não existe protocolo padrão —<br>existe <span class="italic">a sua pele.</span></h2>
+      <p class="lead" data-rv>
+        A Marley Burgos Estética nasceu de uma inquietação simples: por que tanta gente sai de uma clínica
+        com o mesmo pacote que a pessoa anterior? Aqui, tudo começa com uma leitura profunda da sua pele,
+        da sua rotina e do que você realmente quer enxergar no espelho.
+      </p>
+      <p class="lead" data-rv>
+        O que vem depois é técnica de verdade: aparelhologia de alta performance, ativos escolhidos com
+        critério e mãos que fazem isso há mais de uma década. Sem promessa vazia. Sem exagero.
+        Só o seu melhor — evidente.
+      </p>
+      <p class="sig" data-rv>Marley Burgos</p>
+
+      <div class="pillars">
+        <div data-rv><b>Diagnóstico real</b><p>Avaliação detalhada antes de qualquer procedimento. Nada é aplicado no escuto do "achismo".</p></div>
+        <div data-rv><b>Técnica avançada</b><p>Formação contínua e equipamentos certificados, com protocolos atualizados a cada temporada.</p></div>
+        <div data-rv><b>Cuidado inteiro</b><p>Do café na chegada ao acompanhamento pós-sessão. A experiência importa tanto quanto o resultado.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVIÇOS ============ -->
+<section class="section on-dark" id="servicos">
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <span class="eyebrow" data-rv>Protocolos</span>
+        <h2 class="h2" data-rv style="margin-top:18px">Cada um deles,<br><span class="italic">um caminho diferente.</span></h2>
+      </div>
+      <p class="lead" data-rv>Passe o mouse para ver. Escolhemos juntos, na avaliação, qual combina com o seu objetivo.</p>
+    </div>
+
+    <div class="svc-list" id="svcList">
+
+      <article class="svc" data-cursor data-img="0">
+        <div class="svc-num">01</div>
+        <div class="svc-main">
+          <h3>Facial Avançado</h3>
+          <p>Limpeza profunda, extração cuidadosa, alta frequência e máscaras ativas. A base de qualquer pele saudável — e o começo de todo protocolo aqui.</p>
+          <div class="svc-tags"><i>Acne</i><i>Poros</i><i>Oleosidade</i><i>Viço</i></div>
+        </div>
+        <div class="svc-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="svc" data-cursor data-img="1">
+        <div class="svc-num">02</div>
+        <div class="svc-main">
+          <h3>Rejuvenescimento</h3>
+          <p>Microagulhamento, peelings e bioestimulação para firmeza, textura e linhas finas. Colágeno novo, construído sessão após sessão.</p>
+          <div class="svc-tags"><i>Linhas finas</i><i>Firmeza</i><i>Colágeno</i><i>Manchas</i></div>
+        </div>
+        <div class="svc-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="svc" data-cursor data-img="2">
+        <div class="svc-num">03</div>
+        <div class="svc-main">
+          <h3>Corporal &amp; Modelagem</h3>
+          <p>Drenagem linfática, massagem modeladora e protocolos para celulite, gordura localizada e retenção. Corpo leve, contorno definido.</p>
+          <div class="svc-tags"><i>Drenagem</i><i>Celulite</i><i>Contorno</i><i>Pós-operatório</i></div>
+        </div>
+        <div class="svc-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="svc" data-cursor data-img="3">
+        <div class="svc-num">04</div>
+        <div class="svc-main">
+          <h3>Olhar &amp; Sobrancelhas</h3>
+          <p>Design com visagismo, henna, lash lifting e brow lamination. O detalhe que muda o rosto inteiro — e ninguém sabe explicar por quê.</p>
+          <div class="svc-tags"><i>Visagismo</i><i>Lash lifting</i><i>Henna</i><i>Laminação</i></div>
+        </div>
+        <div class="svc-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+      <article class="svc" data-cursor data-img="4">
+        <div class="svc-num">05</div>
+        <div class="svc-main">
+          <h3>Rituais Assinatura</h3>
+          <p>Experiências completas de 90 a 120 minutos, combinando facial, corporal e relaxamento. Pensadas para datas especiais — ou para o dia em que você merece.</p>
+          <div class="svc-tags"><i>Day spa</i><i>Noiva</i><i>Presente</i><i>Casal</i></div>
+        </div>
+        <div class="svc-go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+      </article>
+
+    </div>
+  </div>
+
+  <div class="svc-preview" id="svcPreview">
+    <div class="media media--dark" data-mono="01"><img src="img/protocolo-1.jpg" data-fb="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+    <div class="media media--dark" data-mono="02"><img src="img/protocolo-2.jpg" data-fb="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+    <div class="media media--dark" data-mono="03"><img src="img/protocolo-3.jpg" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+    <div class="media media--dark" data-mono="04"><img src="img/protocolo-4.jpg" data-fb="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+    <div class="media media--dark" data-mono="05"><img src="img/protocolo-5.jpg" data-fb="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+  </div>
+</section>
+
+<!-- ============ RESULTADOS ============ -->
+<section class="section" id="resultados">
+  <div class="wrap ba-grid">
+    <div>
+      <span class="eyebrow" data-rv>Resultados</span>
+      <h2 class="h2" data-rv style="margin:18px 0 26px">Arraste e<br><span class="italic">veja a diferença.</span></h2>
+      <p class="lead" data-rv>
+        Nenhum filtro, nenhuma promessa impossível. O que muda é a constância do protocolo certo,
+        feito por quem entende de pele. Estes são resultados reais de clientes da casa —
+        com autorização de imagem.
+      </p>
+      <p class="lead" data-rv style="margin-top:22px">
+        Na sua avaliação, mostramos casos parecidos com o seu e explicamos, com honestidade,
+        quantas sessões o seu objetivo pede.
+      </p>
+      <a href="#contato" class="btn" data-rv data-cursor data-magnetic style="margin-top:34px">
+        Quero uma avaliação
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="ba" id="ba" data-rv="scale">
+      <div class="side before">
+        <div class="media" data-mono="Antes"><img src="img/antes.jpg" alt="Antes do protocolo" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+      </div>
+      <div class="side after" id="baAfter">
+        <div class="media" data-mono="Depois"><img src="img/depois.jpg" alt="Depois do protocolo" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+      </div>
+      <span class="ba-tag l">Antes</span>
+      <span class="ba-tag r">Depois</span>
+      <div class="ba-handle" id="baHandle">
+        <div class="ba-knob">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l-5 6 5 6M15 6l5 6-5 6"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIÊNCIA ============ -->
+<section class="section" id="experiencia" style="background:var(--ivory-2)">
+  <div class="wrap">
+    <span class="eyebrow" data-rv>A experiência</span>
+    <h2 class="h2" data-rv style="margin-top:18px;max-width:16ch">Como funciona <span class="italic">do começo ao fim.</span></h2>
+
+    <div class="steps">
+      <div class="step" data-rv><b>01</b><h4>Avaliação</h4><p>Conversa sem pressa e leitura de pele com equipamento. Entendemos histórico, rotina e objetivo antes de qualquer indicação.</p></div>
+      <div class="step" data-rv><b>02</b><h4>Protocolo</h4><p>Você recebe um plano escrito: quais sessões, em qual intervalo, com qual expectativa realista de resultado e investimento.</p></div>
+      <div class="step" data-rv><b>03</b><h4>Sessões</h4><p>Ambiente reservado, aromaterapia, música baixa. Cada sessão é registrada em ficha para acompanharmos a evolução.</p></div>
+      <div class="step" data-rv><b>04</b><h4>Manutenção</h4><p>Home care orientado e retornos programados. O resultado não termina quando você sai — é assim que ele se sustenta.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="section on-dark" id="depoimentos">
+  <div class="wrap">
+    <span class="eyebrow" data-rv>Quem já passou por aqui</span>
+    <div class="tst" style="margin-top:clamp(34px,5vw,60px)">
+      <div class="tst-photo" id="tstPhotos">
+        <div class="media media--dark active" data-mono="J"><img src="img/cliente-1.jpg" data-fb="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+        <div class="media media--dark" data-mono="C"><img src="img/cliente-2.jpg" data-fb="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+        <div class="media media--dark" data-mono="R"><img src="img/cliente-3.jpg" data-fb="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80" alt="" onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.removeAttribute('data-fb')}else{this.remove()}"></div>
+      </div>
+
+      <div>
+        <div class="tst-slides" id="tstSlides">
+          <div class="tst-slide active">
+            <div class="stars">★★★★★</div>
+            <q>Eu já tinha tentado de tudo pra acne e sempre me vendiam pacote. A Marley foi a primeira que sentou comigo, explicou a minha pele e disse o que NÃO precisava fazer. Em três meses minha pele virou outra.</q>
+            <cite>Juliana M.<small>Protocolo facial · 8 sessões</small></cite>
+          </div>
+          <div class="tst-slide">
+            <div class="stars">★★★★★</div>
+            <q>O cuidado começa antes do procedimento. O ambiente é lindo, ela lembra de tudo que você falou na sessão anterior. Eu saio de lá relaxada e bonita — não sei qual das duas coisas eu gosto mais.</q>
+            <cite>Camila R.<small>Rituais assinatura · cliente há 2 anos</small></cite>
+          </div>
+          <div class="tst-slide">
+            <div class="stars">★★★★★</div>
+            <q>Fiz o pós-operatório com ela e foi outro nível. Zero desconforto, resultado muito mais rápido do que o médico esperava. Indiquei pra minha mãe, pra minha irmã e pras minhas amigas todas.</q>
+            <cite>Renata S.<small>Corporal · pós-operatório</small></cite>
+          </div>
+        </div>
+
+        <div class="tst-nav">
+          <button id="tstPrev" aria-label="Anterior" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+          <button id="tstNext" aria-label="Próximo" data-cursor><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM ============ -->
+<section class="section" id="instagram">
+  <div class="wrap">
+    <div class="svc-head" style="margin-bottom:0">
+      <div>
+        <span class="eyebrow" data-rv>Bastidores</span>
+        <h2 class="h2" data-rv style="margin-top:18px">@marleyburgos<span class="italic">_estetica</span></h2>
+      </div>
+      <a href="https://instagram.com/marleyburgos_estetica" target="_blank" rel="noopener" class="btn btn--ghost" data-rv data-cursor data-magnetic>
+        Seguir no Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="ig-grid" id="igGrid"></div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq" style="background:var(--ivory-2)">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:clamp(34px,5vw,60px)">
+      <span class="eyebrow" data-rv>Dúvidas frequentes</span>
+      <h2 class="h2" data-rv style="margin-top:18px">Antes de você <span class="italic">perguntar.</span></h2>
+    </div>
+
+    <div class="faq" id="faq">
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Preciso fazer avaliação antes de agendar um procedimento?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>Sim, e ela é o passo mais importante. Só depois de ler a sua pele e entender o seu objetivo conseguimos indicar o protocolo certo — e dizer, com honestidade, quantas sessões ele pede. A avaliação leva cerca de 40 minutos.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Em quantas sessões eu vejo resultado?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>Depende do protocolo e da sua pele. Limpeza e drenagem entregam efeito já na primeira sessão. Rejuvenescimento e tratamento de manchas trabalham com colágeno novo, então falamos em 4 a 8 sessões para uma mudança consistente. Você recebe esse cronograma por escrito.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Os procedimentos doem?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>A maioria é confortável — várias clientes cochilam. Procedimentos mais intensos, como microagulhamento, usam anestésico tópico e são totalmente toleráveis. Em qualquer sessão, a intensidade é ajustada ao seu limite, sempre.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Posso trabalhar normalmente depois?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>Na maioria dos protocolos, sim. Alguns deixam a pele levemente avermelhada por algumas horas. Se você tem um evento importante, avise na avaliação — planejamos o calendário para você chegar no seu melhor exatamente naquele dia.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Quais são as formas de pagamento?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>Pix, dinheiro, débito e crédito com parcelamento. Protocolos fechados têm condição especial e podem ser divididos ao longo das sessões. Tudo é apresentado antes, sem surpresa na hora de pagar.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" data-cursor>Vocês atendem noivas e eventos?<span class="faq-ico"></span></button>
+        <div class="faq-a"><p>Sim. Montamos cronogramas de 3 a 6 meses antes da data, combinando pele, corpo e olhar, com sessão final na semana do evento. É um dos nossos serviços mais procurados — vale reservar com antecedência.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section on-dark" id="contato">
+  <div class="wrap ct-grid">
+    <div class="ct-info">
+      <span class="eyebrow" data-rv>Agende</span>
+      <h2 class="h2" data-rv>Sua avaliação<br><span class="italic">começa aqui.</span></h2>
+      <p class="lead" data-rv>Preencha ao lado ou chame direto no WhatsApp. Respondemos em até algumas horas, de segunda a sábado.</p>
+
+      <div class="ct-list">
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" data-rv data-cursor>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.4 8.4 0 01-12.6 7.3L3 20.5l1.8-5.2A8.5 8.5 0 1121 11.5z"/></svg>
+          <div><b>WhatsApp</b><span>(00) 00000-0000</span></div>
+        </a>
+        <a href="https://instagram.com/marleyburgos_estetica" target="_blank" rel="noopener" data-rv data-cursor>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg>
+          <div><b>Instagram</b><span>@marleyburgos_estetica</span></div>
+        </a>
+        <div data-rv>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <div><b>Endereço</b><span>Rua Exemplo, 000 — Sala 00<br>Bairro · Cidade/UF</span></div>
+        </div>
+        <div data-rv>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <div><b>Horário</b><span>Seg a Sex · 9h às 19h<br>Sábado · 9h às 14h</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div data-rv>
+      <form id="form" novalidate>
+        <div class="f-row">
+          <div class="field"><input type="text" id="nome" name="nome" placeholder=" " required><label for="nome">Seu nome</label></div>
+          <div class="field"><input type="tel" id="tel" name="tel" placeholder=" " required><label for="tel">WhatsApp</label></div>
+        </div>
+        <div class="field field--select">
+          <label for="interesse">Tenho interesse em</label>
+          <select id="interesse" name="interesse">
+            <option>Facial Avançado</option>
+            <option>Rejuvenescimento</option>
+            <option>Corporal &amp; Modelagem</option>
+            <option>Olhar &amp; Sobrancelhas</option>
+            <option>Rituais Assinatura</option>
+            <option>Ainda não sei — quero orientação</option>
+          </select>
+        </div>
+        <div class="field"><textarea id="msg" name="msg" placeholder=" "></textarea><label for="msg">Conte o seu objetivo (opcional)</label></div>
+
+        <button type="submit" class="btn btn--gold" data-cursor data-magnetic style="justify-self:start">
+          <span id="btnTxt">Enviar pelo WhatsApp</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="form-note">Ao enviar, abrimos uma conversa no WhatsApp com a sua mensagem pronta. Seus dados não são armazenados neste site.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-cta">
+      <span class="eyebrow" data-rv>Última chamada</span>
+      <h2 data-rv style="margin-top:20px">Você merece<br><em>essa versão sua.</em></h2>
+      <a href="#contato" class="btn btn--gold" data-rv data-cursor data-magnetic style="margin-top:34px">
+        Agendar avaliação
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+
+    <div class="ft-bottom">
+      <span>© <span id="year">2026</span> Marley Burgos Estética &amp; Beleza · Todos os direitos reservados</span>
+      <div class="ft-social">
+        <a href="https://instagram.com/marleyburgos_estetica" target="_blank" rel="noopener" class="link-u" data-cursor>Instagram</a>
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="link-u" data-cursor>WhatsApp</a>
+        <a href="#top" class="link-u" data-cursor>Voltar ao topo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5500000000000" target="_blank" rel="noopener" class="wa" id="wa" data-cursor aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.4 8.4 0 01-12.6 7.3L3 20.5l1.8-5.2A8.5 8.5 0 1121 11.5z"/></svg>
+  <span>Falar agora</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

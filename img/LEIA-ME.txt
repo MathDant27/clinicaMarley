@@ -1,0 +1,63 @@
+FOTOS DO SITE — Marley Burgos Estetica & Beleza
+================================================
+
+COMO FUNCIONA
+-------------
+O site ja esta funcionando com fotos de banco de imagens
+(Unsplash, uso livre) para voce ver o resultado final.
+
+Para trocar por uma foto REAL da clinica, basta salvar o
+arquivo nesta pasta com o nome exato da lista abaixo.
+A foto local sempre tem prioridade — nao precisa mexer
+em nenhuma linha de codigo.
+
+LISTA DE ARQUIVOS
+-----------------
+  hero.jpg          Destaque do topo. Horizontal. 2000x1300px
+
+  marley.jpg        A Marley (secao "A assinatura"). Vertical.
+                    1000x1250px
+
+  protocolo-1.jpg   Facial Avancado
+  protocolo-2.jpg   Rejuvenescimento
+  protocolo-3.jpg   Corporal & Modelagem
+  protocolo-4.jpg   Olhar & Sobrancelhas
+  protocolo-5.jpg   Rituais Assinatura
+                    Verticais, 800x1060px. Aparecem flutuando
+                    quando o mouse passa sobre cada protocolo.
+
+  antes.jpg         >>> SEM FOTO DE BANCO — LEIA ABAIXO <<<
+  depois.jpg
+                    Comparador arrastavel. Horizontais, 1200x930px.
+                    Mesmo enquadramento, mesma luz, mesma distancia,
+                    mesma pessoa. Enquanto nao existirem, aparece
+                    um fundo degrade no lugar.
+
+  cliente-1.jpg     Fotos das clientes dos depoimentos.
+  cliente-2.jpg     Quadradas, 500x500px, rosto centralizado.
+  cliente-3.jpg
+
+  insta-1.jpg       Seis posts do Instagram.
+  insta-2.jpg       Quadradas, 600x600px.
+  insta-3.jpg
+  insta-4.jpg
+  insta-5.jpg
+  insta-6.jpg
+
+POR QUE ANTES/DEPOIS NAO TEM FOTO DE BANCO
+------------------------------------------
+Um comparativo antes/depois montado com duas modelos
+diferentes de banco de imagens e propaganda enganosa —
+e a cliente percebe. Esse bloco so pode ir ao ar com
+resultado real de cliente real, com autorizacao de
+imagem assinada.
+
+ANTES DE PUBLICAR
+-----------------
+1. Trocar as fotos de banco pelas reais da clinica.
+   Foto real de verdade converte muito mais que banco.
+2. Preencher antes.jpg / depois.jpg.
+3. Substituir os depoimentos e as fotos das clientes
+   por depoimentos reais (index.html, secao "Clientes").
+4. Salvar tudo em JPG, qualidade 80%. Acima de 500 KB
+   deixa o site lento no celular.
